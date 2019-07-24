@@ -2,10 +2,14 @@ import java.util.Random;
 
 public class PerlinNoice {
 
-      RandomUnitVector[][] grad;
+      Vector2D[][] grad;
       int sizex, sizey;
       long seed;
       Random rand;
+
+      Vector2D[] predefinedVectorSet = new Vector2D[]{
+              new Vector2D()
+      };
 
       public PerlinNoice(int sizex, int sizey, long seed) {
             this.sizex = sizex;
