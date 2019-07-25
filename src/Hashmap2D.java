@@ -14,7 +14,7 @@ public class Hashmap2D<K1, K2, V> {
             if(hmap2d.containsKey(k1)){
                   map = hmap2d.get(k1);
             }else {
-                  map = new HashMap<K2, V>();
+                  map = new HashMap<>();
                   hmap2d.put(k1, map);
             }
 
