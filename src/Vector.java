@@ -21,16 +21,6 @@ public class Vector {
             return dot;
       }
 
-      public double get(int index){
-            return values[index];
-      }
-
-      public void scale(double s){
-            for(int i = 0; i < values.length; i++){
-                  values[i] *= s;
-            }
-      }
-
       @Override
       public String toString() {
             String s = "[";
