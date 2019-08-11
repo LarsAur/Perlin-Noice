@@ -16,7 +16,7 @@ public class Vector {
             }
             double dot = 0;
             for(int i = 0; i < values.length; i++){
-                  dot += vector.values[i] * values[i];
+                  dot += vector.values[i] * this.values[i];
             }
             return dot;
       }
